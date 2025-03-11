@@ -25,8 +25,8 @@ A modern web application that allows users to check their SQL Developer (SQLD) c
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/sqld-result-checker.git
-   cd sqld-result-checker
+   git clone https://github.com/ChatHongPT/SQLD_RESULT.git
+   cd SQLD_RESULT
    ```
 
 2. Create and activate a virtual environment
@@ -47,14 +47,14 @@ A modern web application that allows users to check their SQL Developer (SQLD) c
 
 5. Build TailwindCSS
    ```bash
-   npx tailwindcss -i ./static/src/main.css -o ./static/dist/main.css
+   npx tailwindcss -i ./static/css/style.css
    ```
 
 ## Usage
 
 1. Start the Flask development server
    ```bash
-   python app.py
+   flask run
    ```
 
 2. Open your browser and navigate to `http://127.0.0.1:5000`
