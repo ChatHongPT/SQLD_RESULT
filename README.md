@@ -66,7 +66,7 @@ A modern web application that allows users to check their SQL Developer (SQLD) c
 ## Project Structure
 
 ```
-sqld-result-checker/
+SQLD_RESULT/
 ├── app.py                  # Main Flask application
 ├── static/                 # Static files
 │   └── css/style.css       # Source CSS 
@@ -102,18 +102,14 @@ You can customize the appearance by modifying the TailwindCSS configuration:
 
 ```bash
 # Rebuild CSS after making changes
-npx tailwindcss -i ./static/src/main.css -o ./static/dist/main.css --watch
+npx tailwindcss -i ./static/css/style.css --watch
 ```
 
-## Contributing
+## Screenshots
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+<img width="974" alt="LOGIN" src="https://github.com/user-attachments/assets/23df71bf-f245-4bdd-98db-f2b443acb58c" />
+<img width="974" alt="RESULT" src="https://github.com/user-attachments/assets/8a6f0b3d-39f8-4a6f-9699-ba094089e2f6" />
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## Acknowledgements
 
