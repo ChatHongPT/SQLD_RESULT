@@ -3,7 +3,6 @@
 [![Flask](https://img.shields.io/badge/Flask-2.2.2-blue)](https://flask.palletsprojects.com/)
 [![Python](https://img.shields.io/badge/Python-3.8+-yellow)](https://www.python.org/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.0.0-06B6D4)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 A modern web application that allows users to check their SQL Developer (SQLD) certification exam results from the Korea Data Agency portal.
 
@@ -14,11 +13,7 @@ A modern web application that allows users to check their SQL Developer (SQLD) c
 - **Beautiful UI**: Clean, responsive interface built with TailwindCSS
 - **Detailed Scores**: View comprehensive breakdown of exam scores by subject
 
-## Screenshots
-
-![SQLD Result Dashboard](https://via.placeholder.com/800x450)
-
-## Prerequisites
+## Requirements
 
 - Python 3.8+
 - Flask 2.2.2
